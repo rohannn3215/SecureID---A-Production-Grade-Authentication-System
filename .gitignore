@@ -1,0 +1,33 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+
+# Local secret overrides
+**/application-local.properties
+.env
+*.local
+
+# Backend - Maven & Build artifacts
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.flattened-pom.xml
+backend/*.log
+
+# Frontend - Node & Build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
